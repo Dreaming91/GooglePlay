@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--声明了我们的自定义的属性-->
+    <declare-styleable name="RatioView">
+        <attr name="ratio" format="float"/>
+    </declare-styleable>
+</resources>

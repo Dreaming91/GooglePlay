@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<android.support.v7.widget.CardView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:layout_margin="10dp"
+    app:cardBackgroundColor="#fff"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="10dp"
+    app:contentPadding="12dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <com.HY.googleplay.View.RatioView
+            android:id="@+id/iv_subject_show"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:scaleType="fitXY"
+            app:ratio="2.43" />
+
+        <!--<ImageView-->
+        <!--android:id="@+id/iv_subject_show"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="160dp"-->
+        <!--android:scaleType="fitXY" />-->
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#666" />
+
+        <TextView
+            android:id="@+id/tv_subject_des"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:text="测试"
+            android:textColor="#000" />
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
